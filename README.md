@@ -59,7 +59,7 @@ pip install -r requirements.txt
 git clone https://github.com/Ibrahimumutdoruk/Stroke_Detection-and-Segmentation-by-Using-CNN-ML.git
 cd Stroke_Detection-and-Segmentation-by-Using-CNN-ML
 pip install -r requirements.txt
-> ⚠️ **Important**: Make sure to update the `dataset_path` variable in each script before execution.
+>  **Important**: Make sure to update the `dataset_path` variable in each script before execution.
 
 ```bash
 cd Features
@@ -68,7 +68,7 @@ python feature_extraction_script.py
 
 ---
 
-## 🧠 CNN Model Training
+##  CNN Model Training
 
 ### ResNet18
 ```bash
@@ -84,7 +84,7 @@ python train_efficientnet.py
 
 ---
 
-## ⚙ Machine Learning Training
+##  Machine Learning Training
 
 ```bash
 cd ML_Models
@@ -102,7 +102,7 @@ python train_random_forest.py
 - Weighted F1-Score  
 - Confusion Matrix  
 - ROC Curve and AUC Score
-## ⚠ Notes
+##  Notes
 
 - Classical image processing techniques perform well for hemorrhage segmentation due to high contrast.
 - Ischemic stroke segmentation remains challenging due to low contrast; expert support may be needed.
