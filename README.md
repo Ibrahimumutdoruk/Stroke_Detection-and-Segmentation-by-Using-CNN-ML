@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 ## How to Run
 
-## 🛠 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/Ibrahimumutdoruk/Stroke_Detection-and-Segmentation-by-Using-CNN-ML.git
