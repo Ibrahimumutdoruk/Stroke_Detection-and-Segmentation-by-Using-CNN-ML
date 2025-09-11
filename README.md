@@ -13,7 +13,7 @@ This project focuses on detecting and segmenting stroke regions from CT images b
 - [`Features`](https://github.com/Ibrahimumutdoruk/Stroke_Detection-and-Segmntation-by-Using-Machine-Learning/tree/main/Features):  
   Feature extraction techniques were implemented, including texture-based, intensity-based, and statistical feature calculations from segmented regions. Extracted features can be used to train traditional machine learning models like SVM, Random Forest, or XGBoost.
 
-## 🧠 Models Used
+##  Models Used
 
 ### Convolutional Neural Networks (CNN)
 - **ResNet18**
@@ -84,7 +84,7 @@ python train_efficientnet.py
 
 ---
 
-## ⚙️ Machine Learning Training
+## ⚙ Machine Learning Training
 
 ```bash
 cd ML_Models
@@ -96,13 +96,13 @@ python train_random_forest.py
 - Classical methods achieved good results for hemorrhage segmentation, but ischemic stroke segmentation remains challenging due to low contrast differences.
 - Assistance from radiologists may be required for accurate ischemic stroke segmentation.
 - The U-Net segmentation model was also trained; however, due to insufficient data, it did not achieve high performance. It can be further developed for better results.
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 - Accuracy  
 - Weighted F1-Score  
 - Confusion Matrix  
 - ROC Curve and AUC Score
-## ⚠️ Notes
+## ⚠ Notes
 
 - Classical image processing techniques perform well for hemorrhage segmentation due to high contrast.
 - Ischemic stroke segmentation remains challenging due to low contrast; expert support may be needed.
@@ -112,7 +112,7 @@ python train_random_forest.py
 ---
 ---
 
-> 🔍 This hybrid approach enables robust classification and segmentation of medical images for stroke diagnosis.
+>  This hybrid approach enables robust classification and segmentation of medical images for stroke diagnosis.
 ```
 ---
 
